@@ -20,7 +20,7 @@ This cookbook sends messages to a [Slack](http://www.slack.com) channel using th
 
 ## slack_notify Resource Usage
 
-In your `metadata.rb` you need to add `depends chef_slack'`. Passing the below will use default attributes
+In your `metadata.rb` you need to add `depends 'chef_slack'`. Passing the below will use default attributes
 
 ```ruby
 slack_notify "Say Summat!"
